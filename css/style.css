@@ -1,0 +1,57 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/desktop-wallpaper-2880x1800-dark-apple-mac-pro-macbook-pro-retina-backgrounds-and-macbook-black-transformed.jpeg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#container {
+	background-image: url('../images/ios-14-wwdc-2020-iphone-12-ipados-dark-grey-stock-1440x2560-1447');
+	width: 424px;
+	padding: 5px;
+	backdrop-filter: blur(10px);
+	background-position: -300px;
+	color: white;
+	
+}
+h1 {
+	font-family: 'Rubik';
+	font-size: 50px;
+	
+	color: white;
+	
+}
+h2 {	
+	font-size: 30px;
+	color: white;
+	background-color: cornflowerblue;
+    border-radius: 5px;
+	font-family: 'Rubik';
+}
+p {	
+	font-size: 20px;
+	color: white;
+	font-family: 'Rubik';
+}
+a {
+	color: plum;
+	text-decoration: none;
+}
+img {
+	
+		max-width: 40px;
+		max-height: 100px;
+	
+}
